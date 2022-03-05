@@ -1,0 +1,20 @@
+payload:
+   - DOMAIN,disney.api.edge.bamgrid.com
+   - DOMAIN-SUFFIX,disneyplus.com
+   - DOMAIN-SUFFIX,disney-plus.net
+   - DOMAIN-SUFFIX,dssott.com
+   - DOMAIN-SUFFIX,media.dssott.com
+   - DOMAIN,cdn.registerdisney.go.com
+   - DOMAIN,playback-certs.bamgrid.com
+   - DOMAIN,disney.connections.edge.bamgrid.com
+   - DOMAIN,disney.content.edge.bamgrid.com
+   - DOMAIN,disney.playback.edge.bamgrid.com
+   - DOMAIN-SUFFIX,disneystreaming.com
+   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+   - DOMAIN-SUFFIX,disney.demdex.net
+   - DOMAIN-SUFFIX,disney.my.sentry.io
+   - DOMAIN-SUFFIX,disneyplus.bn5x.net
+   - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+##add rules
+   - DOMAIN-SUFFIX,cdn.registerdisney.go.com
+   - DOMAIN-SUFFIX,disney-portal.my.onetrust.com

@@ -1,0 +1,12 @@
+payload:
+   - DOMAIN-SUFFIX,starplus.com
+   - DOMAIN,star.api.edge.bamgrid.com
+   - DOMAIN,star.connections.edge.bamgrid.com
+   - DOMAIN,star.content.edge.bamgrid.com
+   - DOMAIN,star.playback.edge.bamgrid.com
+   - DOMAIN,vpe-static.bamgrid.com
+   - DOMAIN,sdk.iad-03.braze.com
+   - DOMAIN-SUFFIX, bam-sdk-configs.bamgrid.com
+   - DOMAIN,7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
+   - DOMAIN,7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv4.cws.conviva.com
+   - DOMAIN,7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv6.cws.conviva.com
