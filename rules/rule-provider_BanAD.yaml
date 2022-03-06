@@ -491,7 +491,7 @@ payload:
   - DOMAIN-SUFFIX,criteo.com
   - DOMAIN-SUFFIX,criteo.net
   - DOMAIN-SUFFIX,csbew.com
-  - DOMAIN-SUFFIX,demdex.net
+  ##- DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,directrev.com
   - DOMAIN-SUFFIX,dumedia.ru
   - DOMAIN-SUFFIX,effectivemeasure.com
@@ -523,7 +523,7 @@ payload:
   - DOMAIN-SUFFIX,iskyworker.com
   - DOMAIN-SUFFIX,jizzads.com
   - DOMAIN-SUFFIX,juicyads.com
-  - DOMAIN-SUFFIX,kochava.com
+  ##- DOMAIN-SUFFIX,kochava.com
   - DOMAIN-SUFFIX,leadbolt.com
   - DOMAIN-SUFFIX,leadbolt.net
   - DOMAIN-SUFFIX,leadboltads.net
