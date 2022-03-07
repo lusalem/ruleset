@@ -1,8 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,ottg.in
-  - DOMAIN-SUFFIX,epg.it999.ru
-   
- #ilook.tv
+  - DOMAIN-SUFFIX,epg.it999.ru 
+ # > ilook.tv
   - DOMAIN-SUFFIX,akciatv.ru
   - DOMAIN-SUFFIX,russtv.net
   - DOMAIN-SUFFIX,zatikov.net
@@ -21,8 +20,11 @@ payload:
   - IP-CIDR,92.119.88.0/24,no-resolve
   - IP-CIDR,92.119.89.0/24,no-resolve
   - IP-CIDR,93.189.56.0/24,no-resolve
-  
- #bil.best
+ # > ottg
+  - DOMAIN-SUFFIX,ottg.in
+  - DOMAIN-SUFFIX,ottg.cc
+  - DOMAIN,pl.ottg.cc
+ # > bil.best
   - DOMAIN-SUFFIX,bil.best
   - DOMAIN-SUFFIX,plays.pro-live.online
   - DOMAIN-SUFFIX,ultras.cdn-pro.xyz
@@ -30,14 +32,14 @@ payload:
   - DOMAIN-SUFFIX,tvbro.xyz
   - DOMAIN-SUFFIX,playlist.telek.xyz
   - IP-CIDR,62.149.6.21/32,no-resolve
- #tv.team
+ # > tv.team
   - DOMAIN-SUFFIX,troya.tv
   - DOMAIN-SUFFIX,tv.team
- #lightiptv
+ # > lightiptv
   - DOMAIN-SUFFIX,lightiptv.cc
   - DOMAIN-SUFFIX,ottbill.cc
   - DOMAIN-SUFFIX,pp.ru
- #stalker
+ # > stalker
   - DOMAIN-SUFFIX,4khdtv.eu
   - DOMAIN-SUFFIX,tptv.cz
   - DOMAIN-SUFFIX,satelliteiptv.pro
@@ -60,8 +62,7 @@ payload:
   - IP-CIDR,89.187.189.0/24,no-resolve
   - IP-CIDR,62.210.0.0/16,no-resolve
   - IP-CIDR,185.180.14.0/24,no-resolve
- ##free
-
- ##EPG
-  - DOMAIN-SUFFIX,epg.it999.ru
-  
+ # > free
+ # > EPG
+  - DOMAIN-SUFFIX,it999.ru
+  - DOMAIN-SUFFIX,epg-it999-ru.disqus.com
