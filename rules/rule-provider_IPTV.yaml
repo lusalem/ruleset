@@ -1,3 +1,60 @@
 payload:
    - DOMAIN-SUFFIX,ottg.in
    - DOMAIN-SUFFIX,epg.it999.ru
+   
+#ilook.tv
+  - DOMAIN-SUFFIX,akciatv.ru
+  - DOMAIN-SUFFIX,russtv.net
+  - DOMAIN-SUFFIX,zatikov.net
+  - DOMAIN-KEYWORD,russtv
+  - DOMAIN-SUFFIX,ottclub.net
+  - IP-CIDR,194.59.155.0/24,no-resolve
+  - IP-CIDR,213.183.40.0/24,no-resolve
+  - IP-CIDR,213.183.42.0/24,no-resolve
+  - IP-CIDR,213.183.47.0/24,no-resolve
+  - IP-CIDR,5.182.228.0/24,no-resolve
+  - IP-CIDR,5.182.229.0/24,no-resolve
+  - IP-CIDR,5.182.231.0/24,no-resolve
+  - IP-CIDR,5.188.172.0/24,no-resolve
+  - IP-CIDR,77.72.19.0/24,no-resolve
+  - IP-CIDR,77.72.23.0/24,no-resolve
+  - IP-CIDR,92.119.88.0/24,no-resolve
+  - IP-CIDR,92.119.89.0/24,no-resolve
+  - IP-CIDR,93.189.56.0/24,no-resolve
+  
+#bil.best
+  - DOMAIN-SUFFIX,bil.best
+  - DOMAIN-SUFFIX,plays.pro-live.online
+  - DOMAIN-SUFFIX,ultra-tv.online
+  - IP-CIDR,62.149.6.21/32,no-resolve
+#tv.team
+  - DOMAIN-SUFFIX,troya.tv
+  - DOMAIN-SUFFIX,tv.team
+#lightiptv
+  - DOMAIN-SUFFIX,ottbill.cc
+  - DOMAIN-SUFFIX,pp.ru
+#stalker
+  - DOMAIN-SUFFIX,4khdtv.eu
+  - DOMAIN-SUFFIX,tptv.cz
+  - DOMAIN-SUFFIX,satelliteiptv.pro
+  - DOMAIN-SUFFIX,iptvx.site
+  - DOMAIN-SUFFIX,iptvx.one
+  - DOMAIN-SUFFIX,venomf.co
+  - DOMAIN-SUFFIX,anonymoustv.club
+  - DOMAIN-SUFFIX,firetvcaptiveportal.co
+  - DOMAIN-SUFFIX,iptvxpix.ml
+  - IP-CIDR,188.93.236.0/24,no-resolve
+  - IP-CIDR,188.93.237.0/24,no-resolve
+  - IP-CIDR,185.236.230.0/24,no-resolve
+  - IP-CIDR,185.191.0.0/16,no-resolve
+  - IP-CIDR,185.93.2.0/24,no-resolve
+  - IP-CIDR,45.86.190.0/24,no-resolve
+  - IP-CIDR,45.86.191.0/24,no-resolve
+  - IP-CIDR,89.187.189.0/24,no-resolve
+  - IP-CIDR,62.210.0.0/16,no-resolve
+  - IP-CIDR,185.180.14.0/24,no-resolve
+##free
+
+##EPG
+- DOMAIN-SUFFIX,epg.it999.ru
+  
