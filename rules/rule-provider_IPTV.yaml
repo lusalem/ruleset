@@ -1,6 +1,6 @@
 payload:
-   - DOMAIN-SUFFIX,ottg.in
-   - DOMAIN-SUFFIX,epg.it999.ru
+  - DOMAIN-SUFFIX,ottg.in
+  - DOMAIN-SUFFIX,epg.it999.ru
    
  #ilook.tv
   - DOMAIN-SUFFIX,akciatv.ru
