@@ -52,6 +52,8 @@ payload:
   - DOMAIN-SUFFIX,storage.greatiptv.cc
   - DOMAIN-SUFFIX,supiptv.vip
   - DOMAIN-SUFFIX,clientportal-proiptv.club
+  - DOMAIN-SUFFIX,maltaip.com
+  - DOMAIN-SUFFIX,funtogether.xyz
   - IP-CIDR,188.93.236.0/24,no-resolve
   - IP-CIDR,188.93.237.0/24,no-resolve
   - IP-CIDR,185.236.230.0/24,no-resolve
@@ -62,7 +64,10 @@ payload:
   - IP-CIDR,89.187.189.0/24,no-resolve
   - IP-CIDR,62.210.0.0/16,no-resolve
   - IP-CIDR,185.180.14.0/24,no-resolve
+  - IP-CIDR,195.154.22.0/24,no-resolve
+  - IP-CIDR,31.43.191.0/24,no-resolve
  # > free
  # > EPG
   - DOMAIN-SUFFIX,it999.ru
   - DOMAIN-SUFFIX,epg-it999-ru.disqus.com
+  - DOMAIN-SUFFIX,epg.best
