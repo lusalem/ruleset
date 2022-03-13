@@ -29,6 +29,7 @@ payload:
    - DOMAIN-SUFFIX,dcbvoddazn.akamaized.net
    - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net
    - DOMAIN-SUFFIX,dc1live2lindazn.akamaized.net
+   - DOMAIN-SUFFIX,dc2live2lindazn.akamaized.net
    - DOMAIN-SUFFIX,optimizely.com
    - DOMAIN-SUFFIX,logx.optimizely.com
    - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net
