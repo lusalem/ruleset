@@ -1,7 +1,5 @@
 payload:
-  - DOMAIN-SUFFIX,ottg.in
-  - DOMAIN-SUFFIX,epg.it999.ru 
- # > ilook.tv
+  # > ilook.tv
   - DOMAIN-SUFFIX,akciatv.ru
   - DOMAIN-SUFFIX,russtv.net
   - DOMAIN-SUFFIX,zatikov.net
@@ -20,7 +18,7 @@ payload:
   - IP-CIDR,92.119.88.0/24,no-resolve
   - IP-CIDR,92.119.89.0/24,no-resolve
   - IP-CIDR,93.189.56.0/24,no-resolve
- # > ottg
+ ## > ottg
   - DOMAIN-SUFFIX,ottg.in
   - DOMAIN-SUFFIX,ottg.cc
   - DOMAIN,pl.ottg.cc
@@ -66,8 +64,8 @@ payload:
   - IP-CIDR,185.180.14.0/24,no-resolve
   - IP-CIDR,195.154.22.0/24,no-resolve
   - IP-CIDR,31.43.191.0/24,no-resolve
- # > free
- # > EPG
+  # > free
+  # > EPG
   - DOMAIN-SUFFIX,it999.ru
   - DOMAIN-SUFFIX,epg-it999-ru.disqus.com
   - DOMAIN-SUFFIX,epg.best
