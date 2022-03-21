@@ -19,6 +19,7 @@
   - RULE-SET,StarPlus,⭐ STARPLUS
   - RULE-SET,IPTV,📺 IPTV
   - RULE-SET,US,🍟 美国
+  - RULE-SET,US,💳 Paypal
   - RULE-SET,Bahamut,📺 巴哈姆特
   - RULE-SET,BilibiliHMT,📺 哔哩哔哩
   - RULE-SET,Bilibili,📺 哔哩哔哩
