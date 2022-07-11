@@ -32,3 +32,8 @@
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
 # ruleset
+
+Paypal
+
+https://github.com/chentanwan/Config_Self/commit/7302a9eb981b33a3b873663add4dda903ad77cc3
+https://github.com/shiinarimo/Rules/blob/main/Fallback.ini
