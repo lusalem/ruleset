@@ -9,6 +9,7 @@
   - RULE-SET,Apple,🍎 苹果服务
   - RULE-SET,Telegram,📲 电报消息
   - RULE-SET,NetEaseMusic,🎶 网易音乐
+  - RULE-SET,Spotify,🎶 Spotify
   - RULE-SET,Epic,🎮 游戏平台
   - RULE-SET,Sony,🎮 游戏平台
   - RULE-SET,Steam,🎮 游戏平台
