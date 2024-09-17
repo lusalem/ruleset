@@ -2,7 +2,7 @@
   "version": 1,
   "rules": [
     {
-      #"domain": [
+      //"domain": [
         "crl.t-mobile.com",
         "eas3.msg.t-mobile.com",
         "mascns.t-mobile.com",
