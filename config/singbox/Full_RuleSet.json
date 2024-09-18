@@ -21,17 +21,325 @@
   ],
   "route": {
     "rules": [
-      { "protocol":  "dns" , "outbound": "dns-out" },
+      { "rule_set": "🍟 美国", "outbound": "🍟 美国" },
+      { "rule_set": "🪟 geosite-microsoft@cn", "outbound": "🪟 Microsoft" },
+      { "rule_set": "🐬 geosite-onedrive", "outbound": "🐬 OneDrive" },
+      { "rule_set": "📺 geosite-iqiyi", "outbound": "📺 爱奇艺" },
+      { "rule_set": "🎃 geosite_youtube", "outbound": "🎃 YOUTUBE" },
+      { "rule_set": "🌈 geoip-netflix", "outbound": "🌈 NETFLIX" },
+      { "rule_set": "🌈 geosite-netflix", "outbound": "🌈 NETFLIX" },
+      { "rule_set": "🎪 geosite-disneyplus", "outbound": "🎪 DisneyPlus" },
+      { "rule_set": "🎞️ geosite-primevideo", "outbound": "🎞️ PrimeVideo" },
+      { "rule_set": "⭐ geosite-starplus", "outbound": "⭐ STARPLUS" },
+      { "rule_set": "👑 geosite-hbo", "outbound": "👑 HBO" },
+      { "rule_set": "👨🏿‍💻 geosite-github",  "outbound": "👨🏿‍💻 GitHub" },
+      { "rule_set": "🤖 geosite-openai-DustinWin", "outbound": "🤖 ChatGPT" },
+      { "rule_set": "🤖 geosite-openai-Toperlock", "outbound": "🤖 ChatGPT" },
+      { "rule_set": "🤖 geoip-ai", "outbound": "🤖 ChatGPT" },
+      { "rule_set": "🤖 geosite-openai", "outbound": "🤖 ChatGPT" },
+      { "rule_set": "💧 geosite-copilot",  "outbound": "💧 Copilot" },
+      { "rule_set": "🍎 geosite-appletv", "outbound": "🍎 AppleTV" },
+      { "rule_set": "🔶 geosite-amazon", "outbound": "🔶 亚马逊" },
+      { "rule_set": "📞 WIFICALL", "outbound": "📞 WIFICALL" },
+      { "rule_set": "💳 geosite-paypal", "outbound": "💳 Paypal" },
+      { "rule_set": "🛍️ geosite-ebay", "outbound": "🛍️ eBay" },
+      { "rule_set": "🎧 geosite-spotify", "outbound": "🎧 Spotify" },
+      { "rule_set": "🎵 geosite-tiktok",  "outbound": "🎵 TikTok" },
+      { "rule_set": "📲 geosite-telegram",  "outbound": "📲 电报消息" },
+      { "rule_set": "📲 geoip-telegram", "outbound": "📲 电报消息" },
+      { "rule_set": "🍎 geosite-apple@cn", "outbound": "🍎 苹果服务" },
+      { "rule_set": "📺 geosite-bilibili", "outbound": "📺 哔哩哔哩" },
+      { "rule_set": "🔒 geosite-private", "outbound": "🔒 私有网络" },
+      { "rule_set": "🔒 geoip-privateip", "outbound": "🔒 私有网络" },
+      { "protocol": "dns", "port": 53, "outbound": "dns-out" },
+      { "clash_mode": "direct", "outbound": "direct" },
+      { "clash_mode": "global", "outbound": "GLOBAL" },
+      { "network": "udp", "port": 443, "outbound": "🛑 全球拦截" },
+      { "rule_set": "CATEGORY-ADS", "outbound": "🛑 全球拦截" },
+      { "ip_is_private": true, "outbound": "🎯 全球直连" },
+      { "rule_set": "GEOIP-CN", "outbound": "🎯 全球直连" },
+      { "rule_set": "GEOSITE-CN", "outbound": "🎯 全球直连" },
+      { "rule_set": "GEOLOCATION-!CN",  "outbound": "🚀 节点选择"
+      }
+        //{ "protocol":  "dns" , "outbound": "dns-out" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
       { "clash_mode": "Direct", "outbound": "🎯 本机直连" },
       { "rule_set": "private", "outbound": "🎯 全球直连" },
-	  { "rule_set": "ai", "outbound": "🤖 人工智能" },
+      { "rule_set": "ai", "outbound": "🤖 人工智能" },
       { "rule_set": "proxy", "outbound": "🚀 节点选择" },
       { "rule_set": "telegramip", "outbound": "📲 电报消息" },
       { "rule_set": "cnip", "outbound": "🎯 全球直连" }
     ],
     "rule_set": [
       {
+        "tag": "🍟 美国",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/us.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/us.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🪟 geosite-microsoft@cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/ geosite-microsoft@cn.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft@cn.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🐬 geosite-onedrive",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-onedrive.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/onedrive.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "📺 geosite-iqiyi",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-iqiyi.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/iqiyi.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🎃 geosite_youtube",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite_youtube.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🌈 geoip-netflix",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geoip-netflix.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🌈 geosite-netflix",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-netflix.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🎪 geosite-disneyplus",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/geosite-disneyplus.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/disney.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🎞️ geosite-primevideo",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/geosite-primevideo.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/primevideo.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "⭐ geosite-starplus",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-starplus.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/starplus.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "👑 geosite-hbo",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/geosite-hbo.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/max.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "👨🏿‍💻 geosite-github",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-github.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/github.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🤖 geosite-openai-DustinWin",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/geosite-openai-DustinWin.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/ai.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🤖 geosite-openai-Toperlock",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-openai-Toperlock.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🤖 geoip-ai",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geoip-ai.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/ai.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🤖 geosite-openai",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-openai.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/openai.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "💧 geosite-copilot",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-copilot.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bing.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🍎 geosite-appletv",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/geosite-appletv.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/appletv.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🔶 geosite-amazon",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-amazon.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/amazon.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "📞 WIFICALL",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/WIFICALL.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/wificall.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "💳 geosite-paypal",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-paypal.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/paypal.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🛍️ geosite-ebay",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-ebay.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/ebay.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🎧 geosite-spotify",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-spotify.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/spotify.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🎵 geosite-tiktok",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-tiktok.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/tiktok.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "📲 geosite-telegram",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-telegram.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "📲 geoip-telegram",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geoip-telegram.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🍎 geosite-apple@cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-apple@cn.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/applecn@cn.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "📺 geosite-bilibili",
+        "type": "remote",
+        "format": "binary",
+        "path": "./rulesets/geosite-bilibili.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geosite/bilibili.srs",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🔒 geosite-private",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/geosite-private.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/private.json",
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "🔒 geoip-privateip",
+        "type": "remote",
+        "format": "source",
+        "path": "./rulesets/geoip-privateip.json",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/privateip.json",	
+	"download_detour": "🎯 本机直连"
+      },
+      {
+        "tag": "CATEGORY-ADS",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.srs.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOIP-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOSITE-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOLOCATION-!CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
+        "download_detour": "🎯 全球直连"
+      }
+	    //{
         "tag": "private",
         "type": "remote",
         "format": "binary",
