@@ -34,12 +34,12 @@
     ],
     "rule_set": [
       {
-        "tag": "🍟 美国",
+        "tag": "🎃 geosite_youtube",
         "type": "remote",
-        "format": "source",
-        "path": "./rulesets/us.json",
-	      "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/singbox/us.json",
-	      "download_detour": "🎯 全球直连"
+        "format": "binary",
+        "path": "./rulesets/geosite_youtube.srs",
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
+	"download_detour": "🎯 全球直连"
       },
       {
         "tag": "private",
