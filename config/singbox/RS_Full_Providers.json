@@ -86,8 +86,8 @@
         "type": "remote",
         "format": "binary",
         "path": "./ruleset/geosite_youtube.srs",
-	      "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
-	      "download_detour": "🎯 全球直连"
+	"url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
+	"download_detour": "🎯 全球直连"
       },
       {
         "tag": "🌈 geoip-netflix",
