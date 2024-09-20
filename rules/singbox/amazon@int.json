@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "//规则primevideo规则//",
         "atv-ps.amazon.com",
         "avodmp4s3ww-a.akamaihd.net",
         "d1v5ir2lpwr8os.cloudfront.net",
@@ -15,6 +16,7 @@
       ],
       "domain_keyword": [
         "aws",
+        "//规则primevideo规则//",
         "avoddashs"
       ],
       "domain_suffix": [
