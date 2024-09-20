@@ -1,4 +1,4 @@
-//{
+{
   "version": 1,
   "rules": [
     {
@@ -162,7 +162,7 @@
         "amazon.co.jp",
         "aboutamazon.com.au",
         "aboutamazon.co.uk",
-        //primevideo
+        "规则primevideo规则",
         "aiv-cdn.net"
         
       ],
