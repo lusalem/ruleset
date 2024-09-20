@@ -2,6 +2,10 @@
   "version": 1,
   "rules": [
     {
+      
+      "domain_keyword": [
+        "aws"
+      ],
       "domain_suffix": [
         "amazon",
         "xn--cckwcxetd",
