@@ -161,7 +161,10 @@
         "amazon.co.uk",
         "amazon.co.jp",
         "aboutamazon.com.au",
-        "aboutamazon.co.uk"
+        "aboutamazon.co.uk",
+        //primevideo
+        "aiv-cdn.net"
+        
       ],
       "domain_regex": [
         ".+\\.amzndns\\.(co\\.uk|com|net|org)$",
