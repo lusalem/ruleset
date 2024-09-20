@@ -344,8 +344,17 @@
 	      "path": "./ruleset/geolocation-!cn.srs",
         "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
         "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "fakeip-filter",
+        "type": "remote",
+        "format": "source",
+        "path": "./ruleset/fakeip-filter.json",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter.json"
       }
     ],
     "final": "🐟 漏网之鱼"
   }
 }
+//"fakeip": { "enabled": true, "inet4_range": "198.18.0.0/16", "inet6_range": "fc00::/16", "exclude_rule": { "rule_set": [ "fakeip-filter", "private" ] }
+// 搭载 mihomo 内核或 sing-box PuerNya 版内核时，可使该规则集内的域名走 realip
