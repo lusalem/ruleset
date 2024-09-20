@@ -164,6 +164,11 @@
         "aboutamazon.co.uk",
         "规则primevideo规则",
         "aiv-cdn.net"
+        "aiv-delivery.net",
+        "amazonvideo.com",
+        "media-amazon.com",
+        "primevideo.com",
+        "pv-cdn.net"
         
       ],
       "domain_regex": [
