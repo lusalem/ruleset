@@ -79,7 +79,7 @@
       { "clash_mode": "Direct", "outbound": "🎯 全球直连" },
       { "rule_set": "CATEGORY-ADS", "outbound": "🛑 全球拦截" },
       { "rule_set": "GEOIP-CN", "outbound": "🎯 全球直连" },
-      { "rule_set": "GEOSITE-CN", "outbound": "🎯 全球直连" },
+      { "rule_set": "geosite-cn", "outbound": "🎯 全球直连" },
       { "rule_set": "GEOLOCATION-!CN",  "outbound": "🚀 节点选择"}
     ],
     "rule_set": [
@@ -338,7 +338,7 @@
         "download_detour": "🎯 全球直连"
       },
       {
-        "tag": "GEOSITE-CN",
+        "tag": "geosite-cn",
         "type": "remote",
         "format": "binary",
         "url": "https://gh.sswiwi.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
