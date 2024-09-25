@@ -1,0 +1,15 @@
+payload:
+  - DOMAIN,crl.t-mobile.com
+  - DOMAIN,eas3.msg.t-mobile.com
+  - DOMAIN,mascns.t-mobile.com
+  - DOMAIN,ns.sipgeo.t-mobile.com
+  - DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+  - DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+  - DOMAIN-KEYWORD,tmobile
+  - DOMAIN-KEYWORD,t-mobile
+  - IP-CIDR,66.94.0.0/19,no-resolve
+  - IP-CIDR,206.29.177.36/32,no-resolve
+  - IP-CIDR,208.54.159.227/32,no-resolve
+  - IP-CIDR,208.54.2.163/32,no-resolve
+  - IP-CIDR,208.54.0.0/16,no-resolve
