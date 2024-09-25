@@ -42,50 +42,6 @@ proxy-groups:
 #  - {name: 🇨🇳 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
 #  - {name: 🎥 奈飞节点`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media)
 
-proxy-groups:
-  - {name: 🚀 节点选择, type: select, use: [{providers_tags}]}
-  - {name: 🎃 YOUTUBE, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🌈 NETFLIX, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🎪 DisneyPlus, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🔶 国际亚马逊, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 👑 HBO, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🐬 OneDrive, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 👨🏿‍💻 GitHub, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🤖 ChatGPT, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 💧 Copilot, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 📲 电报消息, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🍟 美国, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🍎 AppleTV, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 📞 WIFICALL, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 💳 Paypal, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🛍️ eBay, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🎧 spotify, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🎵 TikTok, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🎮 游戏国际, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🍎 苹果服务, type: select, use: [{providers_tags}, DIRECT, 🚀 节点选择]}
-  - {name: 🪟 Microsoft, type: select, use: [{providers_tags}, DIRECT, 🚀 节点选择]}
-  - {name: 🔶 中国亚马逊, type: select, use: [{providers_tags}, DIRECT, 🚀 节点选择]}
-  - {name: 📺 爱奇艺, type: select, use: [{providers_tags}, DIRECT, 🚀 节点选择]}
-  - {name: 📺 哔哩哔哩, type: select, use: [{providers_tags}, DIRECT, 🚀 节点选择]}
-  - {name: ❤️ Emby公益服, type: select, use: [{providers_tags}, DIRECT, 🚀 节点选择]}
-  - {name: 🎮 游戏中国, type: select, use: [{providers_tags}, DIRECT, 🚀 节点选择]}
-  - {name: 🎯 全球直连, type: select, use: [DIRECT, 🚀 节点选择]}
-  - {name: 🛑 广告拦截, type: select, use: [REJECT, DIRECT]}
-  - {name: 🍃 应用净化, type: select, use: [REJECT, DIRECT]}
-  - {name: 🐟 漏网之鱼, type: select, use: [{providers_tags}, 🚀 节点选择]}
-  - {name: 🇭🇰 香港节点, type: select, use: [{providers_tags}], filter: "(?i)港|hk|hongkong|hong kong"}
-  - {name: 🇯🇵 日本节点, type: select, use: [{providers_tags}], filter: "(?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan"}
-  - {name: 🇺🇲 美国节点, type: select, use: [{providers_tags}], filter: "(?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States"}
-  - {name: 🇸🇬 狮城节点, type: select, use: [{providers_tags}], filter: "(?i)新加坡|坡|狮城|SG|Singapore"}
-  - {name: 🇰🇷 韩国节点, type: select, use: [{providers_tags}], filter: "(?i)KR|Korea|KOR|首尔|韩|韓"}
-#  - {name: 🇭🇰 香港节点`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong)`http://www.gstatic.com/generate_204`300,,50
-#  - {name: 🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
-#  - {name: 🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,150
-#  - {name: 🇸🇬 狮城节点`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
-#  - {name: 🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,
-#  - {name: 🇨🇳 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
-#  - {name: 🎥 奈飞节点`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media)
-
 rule-providers:
   YouTube:
     type: http
@@ -206,18 +162,6 @@ rule-providers:
     behavior: classical
     url: "https://gh.sswiwi.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.yaml"
     path: ./providers/Spotify.yaml
-    interval: 86400
-  TikTok:
-    type: http
-    behavior: classical
-    url: "https://gh.sswiwi.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.yaml"
-    path: ./providers/TikTok.yaml
-    interval: 86400
-  TikTok:
-    type: http
-    behavior: classical
-    url: "https://gh.sswiwi.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.yaml"
-    path: ./providers/TikTok.yaml
     interval: 86400
   TikTok:
     type: http
@@ -357,38 +301,52 @@ rule-providers:
     url: "https://gh.sswiwi.com/https://raw.githubusercontent.com/lusalem/ruleset/main/rules/clash/BanProgramAD.yaml"
     path: ./providers/BanProgramAD.yaml
     interval: 86400
-  ruleset=🎯 全球直连,[]GEOSITE,CN
-  ruleset=🚀 节点选择,[]GEOSITE,geolocation-!cn
-  ruleset=🎯 全球直连,[]GEOIP,CN
-  ruleset=🐟 漏网之鱼,[]FINAL
 
 rules:
-  - RULE-SET, , 🎃 YOUTUBE
-  - RULE-SET, , 🌈 NETFLIX
-  - RULE-SET, , 🎪 DisneyPlus
-  - RULE-SET, , 🔶 国际亚马逊
-  - RULE-SET, , 👑 HBO
-  - RULE-SET, , 🐬 OneDrive
-  - RULE-SET, , 👨🏿‍💻 GitHub
-  - RULE-SET, , 🤖 ChatGPT
-  - RULE-SET, , 💧 Copilot
-  - RULE-SET, , 📲 电报消息
-  - RULE-SET, , 🍟 美国
-  - RULE-SET, , 🍎 AppleTV
-  - RULE-SET, , 📞 WIFICALL
-  - RULE-SET, , 💳 Paypal
-  - RULE-SET, , 🛍️ eBay
-  - RULE-SET, , 🎧 spotify
-  - RULE-SET, , 🎵 TikTok
-  - RULE-SET, , 🎮 游戏国际
-  - RULE-SET, , 🍎 苹果服务
-  - RULE-SET, , 🪟 Microsoft
-  - RULE-SET, , 🔶 中国亚马逊
-  - RULE-SET, , 📺 爱奇艺
-  - RULE-SET, , 📺 哔哩哔哩
-  - RULE-SET, , ❤️ Emby公益服
-  - RULE-SET, , 🎮 游戏中国
-  - RULE-SET, , 🎯 全球直连
-  - RULE-SET, , 🛑 广告拦截
-  - RULE-SET, , 🍃 应用净化
-  - RULE-SET, , 🐟 漏网之鱼
+  - RULE-SET,YouTube,🎃 YOUTUBE
+  - RULE-SET,Netflix,🌈 NETFLIX
+  - RULE-SET,Disney,🎪 DisneyPlus
+  - RULE-SET,Amazon,🔶 国际亚马逊
+  - RULE-SET,AmazonPrimeVideo,🔶 国际亚马逊
+  - RULE-SET,HBO,👑 HBO
+  - RULE-SET,OneDrive,🐬 OneDrive
+  - RULE-SET,GitHub,👨🏿‍💻 GitHub
+  - RULE-SET,OpenAI,🤖 ChatGPT
+  - RULE-SET,Gemini,🤖 ChatGPT
+  - RULE-SET,Claude,🤖 ChatGPT
+  - RULE-SET,ai_ip,🤖 ChatGPT
+  - RULE-SET,Copilot,💧 Copilot
+  - RULE-SET,Telegram,📲 电报消息
+  - RULE-SET,us,🍟 美国
+  - RULE-SET,AppleTV,🍎 AppleTV
+  - RULE-SET,wificall,📞 WIFICALL
+  - RULE-SET,PayPal,💳 Paypal
+  - RULE-SET,ebay,🛍️ eBay
+  - RULE-SET,Spotify,🎧 spotify
+  - RULE-SET,TikTok,🎵 TikTok
+  - RULE-SET,Epic,🎮 游戏国际
+  - RULE-SET,Origin,🎮 游戏国际
+  - RULE-SET,Sony,🎮 游戏国际
+  - RULE-SET,Steam,🎮 游戏国际
+  - RULE-SET,Nintendo,🎮 游戏国际
+  - RULE-SET,GameDownload,🎮 游戏国际
+  - RULE-SET,apple@cn,🍎 苹果服务
+  - RULE-SET,microsoft@cn,🪟 Microsoft
+  - RULE-SET,AmazonCN,🔶 中国亚马逊
+  - RULE-SET,iQIYI,📺 爱奇艺
+  - RULE-SET,BiliBili,📺 哔哩哔哩
+  - RULE-SET,emby,❤️ Emby公益服
+  - RULE-SET,GameDownloadCN,🎮 游戏中国
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,China_Classical,🎯 全球直连
+  - RULE-SET,ChinaIPs_Classical,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - RULE-SET,Proxy_Classical,🚀 节点选择
+  - RULE-SET,BanAD,🛑 广告拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - GEOSITE,CN,🎯 全球直连
+  - GEOSITE,geolocation-!cn,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
