@@ -349,4 +349,5 @@ rules:
   - GEOSITE,CN,🎯 全球直连
   - GEOSITE,geolocation-!cn,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
+  - GEOIP,LAN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
