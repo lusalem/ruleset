@@ -11,7 +11,7 @@ pp: &pp {type: http, interval: 43200, health-check: {enable: true, url: https://
 proxy-providers:
   XBOARD:    ###订阅名称###
     <<: *pp
-    url: "https://xboard.sswiwi.com/api/v1/client/subscribe?token=68337ef392c9feb5a8eca1e4d3398a0c"
+    url: ""
 
 ########################################################################分隔符
 
