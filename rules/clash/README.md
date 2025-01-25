@@ -33,7 +33,9 @@
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
 # ruleset
-
+  - DOMAIN-SUFFIX,
+  - DOMAIN,
+  - DOMAIN-KEYWORD,
 Paypal
 
 https://github.com/chentanwan/Config_Self/commit/7302a9eb981b33a3b873663add4dda903ad77cc3
