@@ -2,4 +2,7 @@ payload:
   - DOMAIN-SUFFIX,starott.com
   - DOMAIN-SUFFIX,peacocktv.com
   - DOMAIN-SUFFIX,hypixel.net
+  - DOMAIN-SUFFIX,cubecraft.net
+  - DOMAIN-SUFFIX,palyfabapi.com
   - DOMAIN-SUFFIX,minecraft-services.net
+  - DOMAIN-SUFFIX,minecraft.net
