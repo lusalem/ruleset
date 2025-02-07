@@ -12,7 +12,7 @@ payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
   - DOMAIN,assets-priconne-redive-us.akamaized.net
-  - DOMAIN,cloud.oracle.com
+  #- DOMAIN,cloud.oracle.com
   - DOMAIN,cvws.icloud-content.com
   - DOMAIN,developer.apple.com
   - DOMAIN,location.microsoft.com
@@ -3770,7 +3770,7 @@ payload:
   - DOMAIN-SUFFIX,opera-mini.net
   - DOMAIN-SUFFIX,opera.com
   - DOMAIN-SUFFIX,opus-gaming.com
-  - DOMAIN-SUFFIX,oraclecloud.com
+  #- DOMAIN-SUFFIX,oraclecloud.com
   - DOMAIN-SUFFIX,orchidbbs.com
   - DOMAIN-SUFFIX,organcare.org.tw
   - DOMAIN-SUFFIX,organharvestinvestigation.net
