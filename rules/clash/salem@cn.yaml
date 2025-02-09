@@ -2,4 +2,5 @@ payload:
 # NETCUP
   - DOMAIN,xboard.sswiwi.com
   - DOMAIN,ss.sswiwi.com
+  - DOMAIN-SUFFIX,linux.do
   - IP-CIDR,37.120.179.196/32,no-resolve
