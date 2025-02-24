@@ -1,8 +1,8 @@
 payload:
   # 地区检测
   - DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com
-  - DOMAIN-SUFFIX, gspe21-ssl.ls.apple.com
-  - DOMAIN-SUFFIX, gspe79-ssl.ls.apple.com
+  #- DOMAIN-SUFFIX, gspe21-ssl.ls.apple.com
+  #- DOMAIN-SUFFIX, gspe79-ssl.ls.apple.com
   # 沃达丰
   - DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
   - DOMAIN-SUFFIX, epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
