@@ -4,16 +4,16 @@
     {
       "domain_suffix": [
         // 地区检测
-        *gspe1-ssl.ls.apple.com
-        *gsp-ssl.ls.apple.com
+        "gspe1-ssl.ls.apple.com"
+        "gsp-ssl.ls.apple.com"
         // 沃达丰
-        *epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
-        *epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
-        *ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
-        *ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
-        *ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
-        *ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org
-         //- DOMAIN-SUFFIX, ocsp.sectigo.com
+        "epdg.epc.mnc015.mcc234.pub.3gppnetwork.org"
+        "epdg.epc.mnc010.mcc234.pub.3gppnetwork.org"
+        "ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org"
+        "ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org"
+        "ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org"
+        "ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org"
+        //"ocsp.sectigo.com"
       ],
   - IP-CIDR,88.82.0.0/19
          // CMLinkUK EE
