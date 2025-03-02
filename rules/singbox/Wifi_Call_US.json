@@ -7,6 +7,12 @@
         "eas3.msg.t-mobile.com"
         "mascns.t-mobile.com"
         "ns.sipgeo.t-mobile.com"
+        "epdg.epc.mnc001.mcc530.pub.3gppnetwork.org"
+        "ss.epdg.epc.geo.mnc001.mcc530.pub.3gppnetwork.org"
+        "epdg.epc.mnc003.mcc520.pub.3gppnetwork.org"
+        "ss.epdg.epc.geo.mnc003.mcc520.pub.3gppnetwork.org"
+        "epdg.epc.mnc001.mcc530.pub.3gppnetwork.org"
+        "ss.epdg.epc.geo.mnc001.mcc530.pub.3gppnetwork.org"
         "epdg.epc.mnc240.mcc310.pub.3gppnetwork.org"
         "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org"
         "ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org"
@@ -17,14 +23,17 @@
         "optimizely.com"
         "redirect.ultra.me"
         "ultramobile.com"
+      ],      
+      "domain_keyword": [
+        "tmobile"
+        "t-mobile"
       ],
       "ip_cidr": [
-         //"ocsp.sectigo.com"
-        "88.82.0.0/19"
-         // CMLinkUK EE
-        "46.68.0.0/17"
-         // Giffgaff
-        "87.194.0.0/16"
+        "66.94.0.0/19"
+        "206.29.177.36/32"
+        "208.54.0.0/16"
+        "203.96.192.0/19"
+        "119.31.120.0/22"
       ]
     }
   ]
