@@ -3,21 +3,22 @@
   "rules": [
     {
       "domain_suffix": [
-        "gspe1-ssl.ls.apple.com"
-        "gsp-ssl.ls.apple.com"
+        // 地区检测
+        "gspe1-ssl.ls.apple.com",
+        "gsp-ssl.ls.apple.com",
         // 沃达丰
-        "epdg.epc.mnc015.mcc234.pub.3gppnetwork.org"
-        "epdg.epc.mnc010.mcc234.pub.3gppnetwork.org"
-        "ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org"
-        "ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org"
-        "ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org"
+        "epdg.epc.mnc015.mcc234.pub.3gppnetwork.org",
+        "epdg.epc.mnc010.mcc234.pub.3gppnetwork.org",
+        "ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org",
+        "ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org",
+        "ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org",
         "ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org"
       ],
       "ip_cidr": [
          //"ocsp.sectigo.com"
-        "88.82.0.0/19"
+        "88.82.0.0/19",
          // CMLinkUK EE
-        "46.68.0.0/17"
+        "46.68.0.0/17",
          // Giffgaff
         "87.194.0.0/16"
       ]
