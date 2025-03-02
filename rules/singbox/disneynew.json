@@ -2,7 +2,7 @@
   "version": 1,
   "rules": [
     {
-      #"domain_suffix": [
+      //"domain_suffix": [
         "20thcenturystudios.com.au",
         "20thcenturystudios.com.br",
         "20thcenturystudios.jp",
