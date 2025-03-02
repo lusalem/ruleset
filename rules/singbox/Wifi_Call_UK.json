@@ -13,10 +13,11 @@
         "ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org"
         "ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org"
         "ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org"
-        //"ocsp.sectigo.com"
       ],
-  - IP-CIDR,88.82.0.0/19
+      "ip_cidr": [
+         //"ocsp.sectigo.com"
+        "88.82.0.0/19
          // CMLinkUK EE
-  - IP-CIDR,46.68.0.0/17
+        "46.68.0.0/17
          // Giffgaff
-  - IP-CIDR,87.194.0.0/16
+        "87.194.0.0/16
