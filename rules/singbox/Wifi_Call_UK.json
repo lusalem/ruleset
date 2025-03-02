@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        // 地区检测
         "gspe1-ssl.ls.apple.com"
         "gsp-ssl.ls.apple.com"
         // 沃达丰
