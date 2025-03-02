@@ -5,7 +5,7 @@
       "domain_suffix": [
        // 以下规则必须走代理
         "tktn.at",
-        "tktn.be"
+        "tktn.be",
        // 语音留言地址，需要代理
         "vm.talkatone.com",
        // 贴图服务
