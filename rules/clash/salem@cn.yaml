@@ -14,6 +14,7 @@ payload:
   - DOMAIN,ss.sswiwi.com
   - DOMAIN,salem.sswiwi.com
   - DOMAIN-SUFFIX,linux.do
+  - DOMAIN-SUFFIX,lyjixiao.com
   - DST-PORT,22
   - DST-PORT,17000
   - DST-PORT,18000
