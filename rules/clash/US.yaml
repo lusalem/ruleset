@@ -6,6 +6,6 @@ payload:
   - DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN,20ca2.playfabapi.com
   - DOMAIN-SUFFIX,inpvp.net
-  - DOMAIN-SUFFIX,minecraft-services.net
+  # - DOMAIN-SUFFIX,minecraft-services.net
   # - DOMAIN-SUFFIX,minecraft.net
   - DOMAIN-SUFFIX,nodeseek.com
