@@ -1,18 +1,7 @@
 payload:
 # NETCUP
-  - DOMAIN,pwd.sswiwi.com
-  - DOMAIN,subweb.sswiwi.com
-  - DOMAIN,sub.sswiwi.com
-  - DOMAIN,substore.sswiwi.com
-  - DOMAIN,nav.sswiwi.com
-  - DOMAIN,bthome.sswiwi.com
-  - DOMAIN,ikuai.sswiwi.com
-  - DOMAIN,panel.sswiwi.com
-  - DOMAIN,ql.sswiwi.com
-  - DOMAIN,pve.sswiwi.com
-  - DOMAIN,dl.sswiwi.com
-  - DOMAIN,ss.sswiwi.com
-  - DOMAIN,salem.sswiwi.com
+  - DOMAIN-SUFFIX,ssr.ee
+  - DOMAIN-SUFFIX,sswiwi.com
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,lyjixiao.com
   - DST-PORT,22
