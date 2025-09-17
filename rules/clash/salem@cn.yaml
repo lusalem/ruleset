@@ -1,7 +1,7 @@
 payload:
 # NETCUP
   - DOMAIN-SUFFIX,ssr.ee
-  - DOMAIN-SUFFIX,sswiwi.com
+  #- DOMAIN-SUFFIX,sswiwi.com
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,lyjixiao.com
   - DST-PORT,22
