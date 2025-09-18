@@ -2,19 +2,10 @@
   "version": 2,
   "rules": [
     {
-      "domain": 
-      [
-      ],
       "domain_suffix": 
       [
         "ssr.ee",
         "linux.do"
-      ],      
-      "domain_keyword": 
-      [
-      ],
-      "ip_cidr": 
-      [
       ],
       "port": 
       [
