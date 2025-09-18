@@ -10,9 +10,9 @@
         "playfabapi.com",
         "20ca2.playfabapi.com",
         "inpvp.net",
-        //"minecraft-services.net",
-        //"minecraft.net",
-        //"nodeseek.com"
+        //"##minecraft-services.net"//,
+        //"##minecraft.net"//,
+        //"##nodeseek.com"//
       ]
     }
   ]
