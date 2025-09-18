@@ -32,7 +32,7 @@
         "unrealtournament.com"
       ],
       "domain_regex": [
-        "^epicgames-download\\d\\.akamaized\\.net$",
+        "^epicgames-download\\d\\.akamaized\\.net$"
       ]
     }
   ]
