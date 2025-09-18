@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": 
+      [
+      ],
+      "domain_suffix": 
+      [
+        "ssr.ee",
+        "linux.do"
+        //"sswiwi.com"
+      ],      
+      "domain_keyword": 
+      [
+      ],
+      "ip_cidr": 
+      [
+      ],
+      "dst-port": 
+      [
+        "22",
+        "17000",
+        "18000"
+      ]
+    }
+  ]
+}
