@@ -9,6 +9,7 @@
       [
         "ssr.ee",
         "linux.do"
+        //"sswiwi.com"
       ],      
       "domain_keyword": 
       [
@@ -18,8 +19,9 @@
       ],
       "port": 
       [
-          80,
-          443
+          22,
+          17000,
+          18000
       ]
     }
   ]
