@@ -17,7 +17,7 @@
       "ip_cidr": 
       [
       ],
-      "dst-port": 
+      "dst_port": 
       [
         "22",
         "17000",
