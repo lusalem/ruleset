@@ -4,14 +4,11 @@
     {
       "domain": [
         "//规则primevideo规则//",
-        "atv-ps.amazon.com",
-        "avodmp4s3ww-a.akamaihd.net",
         "d1v5ir2lpwr8os.cloudfront.net",
         "d22qjgkvxw22r6.cloudfront.net",
         "d25xi40x97liuc.cloudfront.net",
         "d27xxe7juh1us6.cloudfront.net",
         "dmqdd6hw24ucf.cloudfront.net",
-        "fls-na.amazon.com",
         "www.amazon.com"
       ],
       "domain_keyword": [
@@ -176,13 +173,25 @@
         "aboutamazon.com.au",
         "aboutamazon.co.uk",
         "//规则primevideo规则//",
+        "atv-ps.amazon.com",
         "aiv-cdn.net",
         "aiv-delivery.net",
         "amazonvideo.com",
         "media-amazon.com",
         "primevideo.com",
+        "primevideo.cc",
+        "prime-video.com",
+        "primevideo.info",
+        "primevideo.org",
+        "primevideo.tv",
+        "amazonprimevideo.cn",
+        "amazonprimevideo.com.cn",
+        "amazonprimevideo.com",
+        "amazonvideo.cc",
+        "avodmp4s3ww-a.akamaihd.net",
+        "fls-na.amazon.com",
+        "llnwd.net",
         "pv-cdn.net"
-        
       ],
       "domain_regex": [
         ".+\\.amzndns\\.(co\\.uk|com|net|org)$",
