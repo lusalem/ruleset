@@ -1,12 +1,16 @@
 {
-  "version": 1,
+  "version": 2,
   "rules": [
     { 
       "domain_suffix": [
+        //以下规则必须走代理
         "tktn.at",
         "tktn.be",
+        //语音留言地址，需要代理
         "vm.talkatone.com",
+        //贴图服务
         "tenor.com",
+        //# 以下规则其实可以走直连
         "agkn.com",
         "cohere.com",
         "crashlytics.com",
