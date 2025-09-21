@@ -173,25 +173,25 @@ payload:
   - DOMAIN,dmqdd6hw24ucf.cloudfront.net
   - DOMAIN,www.amazon.com
   - DOMAIN-KEYWORD,avoddashs
-  - DOMAIN-SUFFIXatv-ps.amazon.com
-  - DOMAIN-SUFFIXaiv-cdn.net
-  - DOMAIN-SUFFIXaiv-delivery.net
-  - DOMAIN-SUFFIXamazonvideo.com
-  - DOMAIN-SUFFIXmedia-amazon.com
-  - DOMAIN-SUFFIXprimevideo.com
-  - DOMAIN-SUFFIXprimevideo.cc
-  - DOMAIN-SUFFIXprime-video.com
-  - DOMAIN-SUFFIXprimevideo.info
-  - DOMAIN-SUFFIXprimevideo.org
-  - DOMAIN-SUFFIXprimevideo.tv
-  - DOMAIN-SUFFIXamazonprimevideo.cn
-  - DOMAIN-SUFFIXamazonprimevideo.com.cn
-  - DOMAIN-SUFFIXamazonprimevideo.com
-  - DOMAIN-SUFFIXamazonvideo.cc
-  - DOMAIN-SUFFIXavodmp4s3ww-a.akamaihd.net
-  - DOMAIN-SUFFIXfls-na.amazon.com
-  - DOMAIN-SUFFIXllnwd.net
-  - DOMAIN-SUFFIXpv-cdn.net
+  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,primevideo.cc
+  - DOMAIN-SUFFIX,prime-video.com
+  - DOMAIN-SUFFIX,primevideo.info
+  - DOMAIN-SUFFIX,primevideo.org
+  - DOMAIN-SUFFIX,primevideo.tv
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
+  - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN-SUFFIX,fls-na.amazon.com
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,pv-cdn.net
   # 规则primevideo规则
   - IP-CIDR,13.32.0.0/15
   - IP-CIDR,13.35.0.0/17
