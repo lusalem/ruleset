@@ -10,6 +10,8 @@ payload:
   - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
   - DOMAIN-SUFFIX,ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
   - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,entsrv-uk.vodafone.com
+  - DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
   #- DOMAIN-SUFFIX, ocsp.sectigo.com
   - IP-CIDR,88.82.0.0/19
   # CMLinkUK EE
