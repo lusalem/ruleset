@@ -1,6 +1,3 @@
 payload:
-# NETCUP
   - DOMAIN-SUFFIX,ssr.ee
   - DOMAIN-SUFFIX,sswiwi.com
-  #- +.ssr.ee
-  #- +.sswiwi.com
