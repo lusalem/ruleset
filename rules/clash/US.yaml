@@ -1,6 +1,12 @@
 payload:
   - DOMAIN-SUFFIX,starott.com
   - DOMAIN-SUFFIX,peacocktv.com
+  - DOMAIN-SUFFIX,starz.com
+  - DOMAIN-SUFFIX,starz.net
+  - DOMAIN-SUFFIX,starzplay.com
+  - DOMAIN-SUFFIX,starzplay.co.uk
+  - DOMAIN-SUFFIX,lionsgateplus.com
+  - DOMAIN-KEYWORD,starz
   - DOMAIN-SUFFIX,hypixel.net
   - DOMAIN-SUFFIX,cubecraft.net
   - DOMAIN-SUFFIX,playfabapi.com
