@@ -1,6 +1,9 @@
 payload:
   - DOMAIN-SUFFIX,starott.com
   - DOMAIN-SUFFIX,peacocktv.com
+  - DOMAIN-SUFFIX,peacock.com
+  - DOMAIN-SUFFIX,nbc.com
+  - DOMAIN-SUFFIX,lynk.com
   - DOMAIN-SUFFIX,starz.com
   - DOMAIN-SUFFIX,starz.net
   - DOMAIN-SUFFIX,starzplay.com
