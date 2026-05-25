@@ -17,5 +17,6 @@ payload:
   # CMLinkUK EE
   - IP-CIDR,46.68.0.0/17
   # Giffgaff
-  - IP-CIDR,87.194.0.0/16
-  - DOMAIN-SUFFIX,3gppnetwork.org
+  #- IP-CIDR,87.194.0.0/16
+  - IP-CIDR,87.194.0.0/19,UK
+  - IP-CIDR,87.194.88.0/23,UK
