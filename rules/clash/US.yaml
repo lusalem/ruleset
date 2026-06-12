@@ -19,6 +19,7 @@ payload:
   # - DOMAIN-SUFFIX,minecraft-services.net
   - DOMAIN-SUFFIX,hamradio.com
   - DOMAIN-SUFFIX,homedepot.com
+  - DOMAIN-KEYWORD,homedepot
   # - DOMAIN-SUFFIX,minecraft-services.net
   # - DOMAIN-SUFFIX,minecraft.net
   # - DOMAIN-SUFFIX,nodeseek.com
