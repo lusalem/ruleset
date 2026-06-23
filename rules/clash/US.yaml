@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,homedepot.com
   - DOMAIN-KEYWORD,homedepot
   - DOMAIN-KEYWORD,hfkits
+  - DOMAIN-SUFFIX,sota.org.uk
   # - DOMAIN-SUFFIX,minecraft-services.net
   # - DOMAIN-SUFFIX,minecraft.net
   # - DOMAIN-SUFFIX,nodeseek.com
