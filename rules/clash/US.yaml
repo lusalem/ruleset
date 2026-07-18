@@ -22,6 +22,7 @@ payload:
   - DOMAIN-KEYWORD,hfkits
   - DOMAIN-SUFFIX,sota.org.uk
   - DOMAIN-KEYWORD,etsy.com
+  - DOMAIN-KEYWORD,fcc.gov
   # - DOMAIN-SUFFIX,minecraft-services.net
   # - DOMAIN-SUFFIX,minecraft.net
   # - DOMAIN-SUFFIX,nodeseek.com
