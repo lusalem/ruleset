@@ -4,7 +4,6 @@ payload:
   - DOMAIN-SUFFIX,peacock.com
   - DOMAIN-SUFFIX,nbc.com
   - DOMAIN-SUFFIX,lynk.com
-  - DOMAIN-KEYWORD,etsy.com
   - DOMAIN-SUFFIX,starz.com
   - DOMAIN-SUFFIX,starz.net
   - DOMAIN-SUFFIX,starzplay.com
@@ -22,6 +21,7 @@ payload:
   - DOMAIN-KEYWORD,homedepot
   - DOMAIN-KEYWORD,hfkits
   - DOMAIN-SUFFIX,sota.org.uk
+  - DOMAIN-KEYWORD,etsy.com
   # - DOMAIN-SUFFIX,minecraft-services.net
   # - DOMAIN-SUFFIX,minecraft.net
   # - DOMAIN-SUFFIX,nodeseek.com
