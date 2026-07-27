@@ -1,0 +1,256 @@
+{
+    "dns": {
+        "servers": [
+            {
+                "tag": "remote",
+                "type": "https",
+                "server": "1.1.1.1",
+                "server_port": 443,
+                "detour": "🚀 节点选择"
+            },
+            {
+                "tag": "local",
+                "type": "https",
+                "server": "223.5.5.5",
+                "server_port": 443
+            }
+        ],
+        "rules": [
+            {
+                "outbound": [
+                    "any"
+                ],
+                "server": "local"
+            },
+            {
+                "clash_mode": "Global",
+                "server": "remote"
+            },
+            {
+                "clash_mode": "Direct",
+                "server": "local"
+            },
+            {
+                "rule_set": [
+                    "geosite-cn"
+                ],
+                "server": "local"
+            }
+        ],
+        "strategy": "prefer_ipv4"
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "auto_route": true,
+            "endpoint_independent_nat": true,
+            "address": [
+                "172.19.0.1/30",
+                "2001:0470:f9da:fdfa::1/64"
+            ],
+            "mtu": 9000,
+            "stack": "system",
+            "strict_route": true
+        },
+        {
+            "type": "socks",
+            "tag": "socks-in",
+            "listen": "127.0.0.1",
+            "listen_port": 2333
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "127.0.0.1",
+            "listen_port": 2334
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "🚀 节点选择",
+            "type": "selector",
+            "outbounds": [
+                "香港01ALICE VLESS😉"
+            ]
+        },
+        {
+            "tag": "📲 电报消息",
+            "type": "selector",
+            "outbounds": [
+                "新加坡04ARM VLESS✈"
+            ]
+        },
+        {
+            "tag": "📞 TT语音",
+            "type": "selector",
+            "outbounds": [
+                "美国01ARM VLESS🌏"
+            ]
+        },
+        {
+            "tag": "📞 香港语音",
+            "type": "selector",
+            "outbounds": [
+                "香港01ALICE VLESS😉"
+            ]
+        },
+        {
+            "tag": "📞 英国语音",
+            "type": "selector",
+            "outbounds": [
+                "香港01ALICE VLESS😉"
+            ]
+        },
+        {
+            "tag": "📞 美国语音",
+            "type": "selector",
+            "outbounds": [
+                "美国01ARM VLESS🌏"
+            ]
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "♻️ 自动选择",
+            "type": "urltest",
+            "outbounds": []
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "rules": [
+            {
+                "inbound": [
+                    "tun-in",
+                    "socks-in",
+                    "mixed-in"
+                ],
+                "action": "resolve",
+                "strategy": "prefer_ipv4"
+            },
+            {
+                "inbound": [
+                    "tun-in",
+                    "socks-in",
+                    "mixed-in"
+                ],
+                "action": "sniff"
+            },
+            {
+                "protocol": "dns",
+                "action": "hijack-dns"
+            },
+            {
+                "clash_mode": "Direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "Global",
+                "outbound": "🚀 节点选择"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geosite-cn",
+                    "geoip-cn"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geoip_telegram",
+                    "geosite_telegram"
+                ],
+                "outbound": "📲 电报消息"
+            },
+            {
+                "rule_set": [
+                    "TalkatoneProxy"
+                ],
+                "outbound": "📞 TT语音"
+            },
+            {
+                "rule_set": [
+                    "Wifi_Call_HK"
+                ],
+                "outbound": "📞 香港语音"
+            },
+            {
+                "rule_set": [
+                    "Wifi_Call_UK"
+                ],
+                "outbound": "📞 英国语音"
+            },
+            {
+                "rule_set": [
+                    "Wifi_Call_US"
+                ],
+                "outbound": "📞 美国语音"
+            }
+        ],
+        "rule_set": [
+            {
+                "tag": "geosite-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/cn.srs",
+                "download_detour": "♻️ 自动选择"
+            },
+            {
+                "tag": "geoip-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/lusalem/ruleset/refs/heads/main/rules/singbox/cnip.srs",
+                "download_detour": "♻️ 自动选择"
+            },
+            {
+                "tag": "geoip_telegram",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
+                "download_detour": "♻️ 自动选择"
+            },
+            {
+                "tag": "geosite_telegram",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
+                "download_detour": "♻️ 自动选择"
+            },
+            {
+                "tag": "TalkatoneProxy",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/lusalem/ruleset/refs/heads/main/rules/singbox/TalkatoneProxy.json",
+                "download_detour": "♻️ 自动选择"
+            },
+            {
+                "tag": "Wifi_Call_HK",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/lusalem/ruleset/refs/heads/main/rules/singbox/Wifi_Call_HK.json",
+                "download_detour": "♻️ 自动选择"
+            },
+            {
+                "tag": "Wifi_Call_UK",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/lusalem/ruleset/refs/heads/main/rules/singbox/Wifi_Call_UK.json",
+                "download_detour": "♻️ 自动选择"
+            },
+            {
+                "tag": "Wifi_Call_US",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/lusalem/ruleset/refs/heads/main/rules/singbox/Wifi_Call_US.json",
+                "download_detour": "♻️ 自动选择"
+            }
+        ]
+    }
+}
