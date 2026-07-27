@@ -37,7 +37,7 @@
                 "server": "local"
             }
         ],
-        "strategy": "prefer_ipv4"
+        "strategy": "ipv4_only"
     },
     "inbounds": [
         {
@@ -129,7 +129,7 @@
                     "mixed-in"
                 ],
                 "action": "resolve",
-                "strategy": "prefer_ipv4"
+                "strategy": "ipv4_only"
             },
             {
                 "inbound": [
