@@ -3,13 +3,31 @@
   "rules": [
     {
       "domain_suffix": [
-        "media.starott.com",
+        "starott.com",
         "peacocktv.com",
+        "peacock.com",
+        "nbc.com",
+        "lynk.com",
+        "starz.com",
+        "starz.net",
+        "starzplay.com",
+        "starzplay.co.uk",
+        "lionsgateplus.com",
         "hypixel.net",
         "cubecraft.net",
         "playfabapi.com",
-        "20ca2.playfabapi.com",
-        "inpvp.net"
+        "inpvp.net",
+        "hamradio.com",
+        "homedepot.com",
+        "sota.org.uk"
+      ],
+      "domain_keyword": [
+        "starz",
+        "homedepot",
+        "hfkits",
+        "etsy.com",
+        "fcc.gov",
+        "reddit.com"
       ]
     }
   ]
