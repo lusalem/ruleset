@@ -2,6 +2,9 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "20ca2.playfabapi.com"
+      ],,
       "domain_suffix": [
         "starott.com",
         "peacocktv.com",
